@@ -104,7 +104,7 @@
     },
     {
       "tag": "default",
-      "patterns": [],
+      "patterns": ["", "I don't know", "I'm not sure", "Maybe", "No", "Yes"],
       "responses": ["I'm sorry, I didn't understand that.", "Could you please rephrase that?", "I'm not sure I follow you.", "I'm still learning, can you provide more context?"]
     }
   ]
