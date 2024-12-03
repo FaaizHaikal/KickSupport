@@ -1,0 +1,111 @@
+{
+  "intents":
+  [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later!", "Have a great day!", "Goodbye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+      "responses": ["You're welcome!", "Anytime!", "My pleasure!"]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["What is your name?", "Who are you?", "What can I call you?", "What's your name?"],
+      "responses": ["I am KickSupport!", "You can call me KickSupport!", "I am KickSupport, your virtual assistant!"]
+    },
+    {
+      "tag": "objectives",
+      "patterns": ["What are you?", "What is your purpose?", "What do you do?", "What are your objectives?"],
+      "responses": ["I am here to help you with KickVerse", "I am here as KickVerse assistant!", "I am here to assist you with KickVerse!"]
+    },
+    {
+      "tag": "kickverse",
+      "patterns": ["What is KickVerse?", "What can I do with KickVerse?", "What is KickVerse all about?", "Tell me about KickVerse"],
+      "responses": ["KickVerse is an e-commerce platform where you can find any shoes you need!", 
+                    "KickVerse is an e-commerce platform for shoes!", 
+                    "KickVerse is an online store for shoes!"]
+    },
+    {
+      "tag": "sell",
+      "patterns": ["How can I sell on KickVerse?", "How can I list my shoes on KickVerse?", "How can I sell my shoes on KickVerse?", "How can I become a seller on KickVerse?"],
+      "responses": ["1. Create an account on KickVerse\n2. Head to the seller dashboard\n3. List your shoes\n4. Wait for buyers to contact you!"]
+    },
+    {
+      "tag": "features",
+      "patterns": ["What are the features of KickVerse?", "What can I do on KickVerse?", "What are the functionalities of KickVerse?", "What are the services provided by KickVerse?"],
+      "responses": ["Like any other e-commerce platform, you can buy and sell products on KickVerse, but we specialize in shoes! You can also chat with sellers and leave reviews! What's more, we have an image recognition feature that allows you to search for shoes using images! Give it a try!"]
+    },
+    {
+      "tag": "where",
+      "patterns": ["Where can I find KickVerse?", "Where is KickVerse located?", "Where can I access KickVerse?", "Where can I use KickVerse?"],
+      "responses": ["KickVerse is an online platform, so you can access it *here*!",
+                    "Check out KickVerse at *this link*!",
+                    "You can find KickVerse at *this link*!"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact KickVerse?", "How can I reach KickVerse?", "How can I get in touch with KickVerse?", "How can I talk to KickVerse?"],
+      "responses": ["You can contact KickVerse at *this email*!",
+                    "Reach out to KickVerse at *this email*!",
+                    "You can get in touch with KickVerse at *this email*!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "I need assistance", "I need support"],
+      "responses": ["Sure! What do you need help with?", "Of course! What can I help you with?", "I'm here to help! What do you need assistance with?"]
+    },
+    {
+      "tag": "search",
+      "patterns": ["How can I search for shoes?", "How can I find shoes on KickVerse?", "How can I look for shoes on KickVerse?", "How can I search for shoes on KickVerse?"],
+      "responses": ["You can search for shoes on KickVerse by using the search bar at the top of the page! You can also use our image recognition feature to search for shoes using images! Cool, isn't it?"]
+    },
+    {
+      "tag": "buy",
+      "patterns": ["How can I buy shoes on KickVerse?", "How can I purchase shoes on KickVerse?", "How can I order shoes on KickVerse?", "How can I get shoes on KickVerse?"],
+      "responses": ["1. Create an account on KickVerse\n2. Find the shoes you want\n3. Checkout and make payment\n4. Wait for the shoes to be delivered!"]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["How can I pay for shoes on KickVerse?", "What payment methods are accepted on KickVerse?", "How can I make payment on KickVerse?", "What are the payment options on KickVerse?"],
+      "responses": ["KickVerse accepts various payment methods, including credit cards, debit cards, and PayPal!"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How are shoes delivered on KickVerse?", "What are the delivery options on KickVerse?", "How can I get my shoes on KickVerse?", "How can I receive my shoes on KickVerse?"],
+      "responses": ["The delivery of shoes on KickVerse depends on the seller, but you can usually choose between standard and express delivery options!"]
+    },
+    {
+      "tag": "return",
+      "patterns": ["How can I return shoes on KickVerse?", "What is the return policy on KickVerse?", "How can I get a refund on KickVerse?", "What is the process for returning shoes on KickVerse?"],
+      "responses": ["The return policy on KickVerse depends on the seller, but you can usually return shoes within a certain period if they are in their original condition!"]
+    },
+    {
+      "tag": "chat",
+      "patterns": ["How can I chat with sellers on KickVerse?", "How can I communicate with sellers on KickVerse?", "How can I talk to sellers on KickVerse?", "How can I contact sellers on KickVerse?"],
+      "responses": ["You can chat with sellers on KickVerse by clicking on the chat icon on the product page!"]
+    },
+    {
+      "tag": "review",
+      "patterns": ["How can I leave a review on KickVerse?", "How can I rate sellers on KickVerse?", "How can I provide feedback on KickVerse?", "How can I review products on KickVerse?"],
+      "responses": ["You can leave a review on KickVerse by going to the product page and clicking on the review section!"]
+    },
+    {
+      "tag": "image",
+      "patterns": ["How can I search for shoes using images on KickVerse?", "How can I use image recognition on KickVerse?", "How can I find shoes with pictures on KickVerse?", "How can I search for shoes with photos on KickVerse?"],
+      "responses": ["You can search for shoes using images on KickVerse by clicking on the camera icon in the search bar and uploading an image of the shoes you want to find!"]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand that.", "Could you please rephrase that?", "I'm not sure I follow you.", "I'm still learning, can you provide more context?"]
+    }
+  ]
+}
