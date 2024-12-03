@@ -36,7 +36,7 @@
     {
       "tag": "sell",
       "patterns": ["How can I sell on KickVerse?", "How can I list my shoes on KickVerse?", "How can I sell my shoes on KickVerse?", "How can I become a seller on KickVerse?"],
-      "responses": ["1. Create an account on KickVerse\n2. Head to the seller dashboard\n3. List your shoes\n4. Wait for buyers to contact you!"]
+      "responses": ["To sell on KickVerse, first create an account. Then, head to the seller dashboard, list your shoes, and wait for buyers to contact you!"]
     },
     {
       "tag": "features",
@@ -70,7 +70,7 @@
     {
       "tag": "buy",
       "patterns": ["How can I buy shoes on KickVerse?", "How can I purchase shoes on KickVerse?", "How can I order shoes on KickVerse?", "How can I get shoes on KickVerse?"],
-      "responses": ["1. Create an account on KickVerse\n2. Find the shoes you want\n3. Checkout and make payment\n4. Wait for the shoes to be delivered!"]
+      "responses": ["First things first, you need to create an account on KickVerse. Then, you can browse through the shoes, add them to your cart, and proceed to checkout!"]
     },
     {
       "tag": "payment",
