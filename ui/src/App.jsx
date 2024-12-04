@@ -1,35 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from "react";
+import Box from "@mui/material/Box";
+import MessageInput from "./components/MessageInput";
+import AppContext from "./contexts/AppContext";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [newMessage, setNewMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <AppContext.Provider
+      value={{
+        newMessage,
+        setNewMessage,
+        isLoading,
+        setIsLoading,
+      }}
+    >
+      <Box
+        style={{ display: "flex", flexDirection: "column", height: "100vh" }}
+      >
+        <Box style={{ flex: "1", overflow: "auto", padding: "16px" }}></Box>
+        <MessageInput />
+      </Box>
+    </AppContext.Provider>
+  );
 }
 
-export default App
+export default App;
