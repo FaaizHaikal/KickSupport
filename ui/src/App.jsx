@@ -4,12 +4,15 @@ import MessageInput from "./components/MessageInput";
 import AppContext from "./contexts/AppContext";
 
 function App() {
+  const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   return (
     <AppContext.Provider
       value={{
+        messages,
+        setMessages,
         newMessage,
         setNewMessage,
         isLoading,
