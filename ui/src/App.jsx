@@ -1,31 +1,41 @@
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
-import MessageInput from "./components/MessageInput";
-import AppContext from "./contexts/AppContext";
+import ChatInput from "./components/ChatInput";
+import Chats from "./components/Chats";
 
 function App() {
-  const [messages, setMessages] = useState([]);
-  const [newMessage, setNewMessage] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  const [messages, setMessages] = useState([
+    { speaker: "bot", message: "Hello! How can I assist you today?" },
+  ]);
+
+  const addMessage = (newMessage) => {
+    setMessages((prev) => [...prev, newMessage]);
+  };
 
   return (
-    <AppContext.Provider
-      value={{
-        messages,
-        setMessages,
-        newMessage,
-        setNewMessage,
-        isLoading,
-        setIsLoading,
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        height: "100vh",
+        backgroundColor: "#242424",
+        overflow: "hidden",
       }}
     >
+      <Chats messages={messages}/>
       <Box
-        style={{ display: "flex", flexDirection: "column", height: "100vh" }}
+        sx={{
+          width: "100%",
+          maxWidth: "600px",
+          padding: "10px",
+          boxSizing: "border-box",
+          borderTop: "1px solid #e0e0e0",
+        }}
       >
-        <Box style={{ flex: "1", overflow: "auto", padding: "16px" }}></Box>
-        <MessageInput />
+        <ChatInput onSend={(msg) => addMessage(msg)} />
       </Box>
-    </AppContext.Provider>
+    </Box>
   );
 }
 
