@@ -51,6 +51,22 @@
       ]
     },
     {
+      "tag": "okay",
+      "patterns": [
+        "Okay",
+        "Alright",
+        "Got it",
+        "Understood",
+        "I see"
+      ],
+      "responses": [
+        "Great! Let me know if you need anything else.",
+        "Perfect! Feel free to ask if you have any more questions.",
+        "Awesome! If you need further assistance, just ask.",
+        "Good to know! If you have any other inquiries, don't hesitate to ask."
+      ]
+    },
+    {
       "tag": "thanks",
       "patterns": [
         "Thanks",
