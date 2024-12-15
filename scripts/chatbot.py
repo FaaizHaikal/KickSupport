@@ -12,6 +12,10 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 class KickBot:
   def __init__(self):
     start_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    nltk.download("punkt")
+    nltk.download("punkt_tab")
+    nltk.download("wordnet")
 
     self.lemmatizer = WordNetLemmatizer()
     self.intents = json.loads(open(os.path.join(start_dir, '../data/intents.json')).read())
