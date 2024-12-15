@@ -9,16 +9,19 @@ function App() {
   const BOT_URL = `http://${BOT_HOST}:${BOT_PORT}/chat`;
 
   const [messages, setMessages] = useState([
-    { speaker: "bot", message: "Hello! How can I assist you today?" },
+    { speaker: "bot", content: "Hello! How can I assist you today?"},
   ]);
 
   const getBotResponse = async (userMessage) => {
+    // add bot loading
+    addMessage({ speaker: "bot", content: ""})
+
     const response = await fetch(BOT_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ message: userMessage})
+      body: JSON.stringify({ message: userMessage })
     });
 
     if (!response.ok) {
@@ -27,14 +30,21 @@ function App() {
     }
 
     const data = await response.json();
-    addMessage({ speaker: "bot", message: data.response });
+    
+    // update last bot message content
+    setMessages((prev) => {
+      const lastBotMessage = prev[prev.length - 1];
+      lastBotMessage.content = data.response;
+      return [...prev];
+    });
   }
 
   const addMessage = (newMessage) => {
     setMessages((prev) => [...prev, newMessage]);
     
     if (newMessage.speaker === "user") {
-      getBotResponse(newMessage.message);
+      console.log("User message:", newMessage.content);
+      getBotResponse(newMessage.content);
     }
   };
 

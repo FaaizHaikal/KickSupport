@@ -35,7 +35,7 @@ function Chats({messages}) {
           <ChatBubble
             key={index}
             speaker={message.speaker}
-            message={message.message}
+            content={message.content}
           />
         ))}
     </Box>

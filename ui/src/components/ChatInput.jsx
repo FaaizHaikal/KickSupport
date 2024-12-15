@@ -7,7 +7,7 @@ function ChatInput({ onSend }) {
 
   const handleSend = () => {
     if (newMessage.trim()) {
-      onSend({ speaker: "user", message: newMessage });
+      onSend({ speaker: "user", content: newMessage });
       setNewMessage(""); // Clear input after sending
     }
   };
