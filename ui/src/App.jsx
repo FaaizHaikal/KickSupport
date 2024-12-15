@@ -11,9 +11,11 @@ function App() {
   const [messages, setMessages] = useState([
     { speaker: "bot", content: "Hello! How can I assist you today?"},
   ]);
+  const [isLoading, setIsLoading] = useState(false);
 
   const getBotResponse = async (userMessage) => {
     // add bot loading
+    setIsLoading(true);
     addMessage({ speaker: "bot", content: ""})
 
     const response = await fetch(BOT_URL, {
@@ -37,6 +39,7 @@ function App() {
       lastBotMessage.content = data.response;
       return [...prev];
     });
+    setIsLoading(false);
   }
 
   const addMessage = (newMessage) => {
@@ -69,7 +72,7 @@ function App() {
           borderTop: "1px solid #e0e0e0",
         }}
       >
-        <ChatInput onSend={(msg) => addMessage(msg)} />
+        <ChatInput isLoading={isLoading} onSend={(msg) => addMessage(msg)} />
       </Box>
     </Box>
   );

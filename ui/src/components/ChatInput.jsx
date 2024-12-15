@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Box, TextField, IconButton } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 
-function ChatInput({ onSend }) {
+function ChatInput({ isLoading, onSend }) {
   const [newMessage, setNewMessage] = useState("");
 
   const handleSend = () => {
@@ -31,7 +31,7 @@ function ChatInput({ onSend }) {
         value={newMessage}
         onChange={(e) => setNewMessage(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter" && !e.shiftKey) {
+          if (e.key === "Enter" && !e.shiftKey && !isLoading) {
             e.preventDefault();
             handleSend();
           }
