@@ -1,8 +1,10 @@
 import flask
+from flask_cors import CORS
 import argparse
 from scripts.chatbot import KickBot
 
 app = flask.Flask(__name__)
+CORS(app)
 bot = KickBot()
 
 @app.route('/chat', methods=['POST'])
