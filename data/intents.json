@@ -6,7 +6,18 @@
         "Hi", 
         "Is anyone there?", 
         "Hello", 
-        "Good day"],
+        "Good day",
+        "Hey",
+        "Greetings",
+        "Howdy",
+        "What's up?",
+        "Hi there",
+        "Hey there",
+        "Hello there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
       "responses": [
         "Hello! How can I help you today?", 
         "Hi! What can I assist you with?", 
@@ -20,7 +31,18 @@
         "Bye", 
         "See you later", 
         "Goodbye", 
-        "Take care"],
+        "Take care",
+        "Farewell",
+        "Catch you later",
+        "See you soon",
+        "Later",
+        "I'm off",
+        "Talk to you later",
+        "See ya",
+        "Peace out",
+        "I'm out",
+        "Have a good one"
+      ],
       "responses": [
         "Goodbye! Have a great day!", 
         "See you later! Take care!", 
@@ -34,7 +56,17 @@
         "Thanks",
         "Thank you",
         "That's helpful",
-        "Thanks for the help"
+        "Thanks for the help",
+        "I appreciate it",
+        "Much appreciated",
+        "Thanks a lot",
+        "Thank you very much",
+        "Thanks for your assistance",
+        "Thank you for your help",
+        "Thanks for the support",
+        "Thank you for the assistance",
+        "I am grateful",
+        "Many thanks"
       ],
       "responses": [
         "You're welcome! Feel free to ask if you need more assistance.",
@@ -49,7 +81,13 @@
         "What is your name?",
         "Who are you?",
         "What can I call you?",
-        "What's your name?"
+        "What's your name?",
+        "May I know your name?",
+        "Who am I chatting with?",
+        "Can you tell me your name?",
+        "Do you have a name?",
+        "What should I call you?",
+        "Introduce yourself"
       ],
       "responses": [
         "I am KickSupport!",
@@ -65,7 +103,13 @@
         "What do you do?",
         "What are your objectives?",
         "Support for what?",
-        "What is your function?"
+        "What is your function?",
+        "What is your role?",
+        "What can you help me with?",
+        "What services do you provide?",
+        "What kind of support do you offer?",
+        "What is your mission?",
+        "What can you assist me with?"
       ],
       "responses": [
         "I am here to help you with KickFlicker",
@@ -79,7 +123,13 @@
         "What is KickFlicker?",
         "What can I do with KickFlicker?",
         "What is KickFlicker all about?",
-        "Tell me about KickFlicker"
+        "Tell me about KickFlicker",
+        "Can you explain KickFlicker?",
+        "What does KickFlicker do?",
+        "How does KickFlicker work?",
+        "What services does KickFlicker offer?",
+        "What is the purpose of KickFlicker?",
+        "What can I use KickFlicker for?"
       ],
       "responses": [
         "KickFlicker is an innovative e-commerce platform where you can find any shoes you need! Our user-friendly interface ensures a smooth shopping experience, and our secure payment options give you peace of mind. Plus, our advanced AI image search categorizes shoes into eight categories: Basket, Boots, Casual, Flat Shoes, Football, Formal, Heels, and Running, making it easier for you to find the perfect pair.",
@@ -93,7 +143,17 @@
         "How can I sell on KickFlicker?",
         "How can I list my shoes on KickFlicker?",
         "How can I sell my shoes on KickFlicker?",
-        "How can I become a seller on KickFlicker?"
+        "How can I become a seller on KickFlicker?",
+        "What is the process to sell on KickFlicker?",
+        "How do I start selling on KickFlicker?",
+        "How do I list products on KickFlicker?",
+        "How do I become a seller on KickFlicker?",
+        "What do I need to do to sell on KickFlicker?",
+        "Can I sell shoes on KickFlicker?",
+        "Is it possible to sell on KickFlicker?",
+        "How can I register as a seller on KickFlicker?",
+        "How can I create a seller account on KickFlicker?",
+        "What are the steps to sell on KickFlicker?"
       ],
       "responses": [
         "To start selling on KickFlicker, first create an account by signing up with your email and setting a secure password. After setting up your account, click on the \"My Store\" button at the top of the page to access your seller dashboard. Here, you can manage your store by listing your shoes with detailed descriptions, high-quality images, and competitive prices. Once your products are listed, they will be visible to potential buyers. You can track sales, manage inventory, and communicate with buyers directly through the platform. KickFlicker helps you reach a wide audience and grow your shoe business.",
@@ -121,10 +181,15 @@
         "Where can I find KickFlicker?",
         "Where is KickFlicker located?",
         "Where can I access KickFlicker?",
-        "Where can I use KickFlicker?"
+        "Where can I use KickFlicker?",
+        "How do I get to KickFlicker?",
+        "Where can I visit KickFlicker?",
+        "Where is the KickFlicker website?",
+        "What is the URL for KickFlicker?",
+        "How can I reach KickFlicker online?",
+        "Where can I go to use KickFlicker?"
       ],
       "responses": [
-        "KickFlicker is an online platform, so you can access it here: kickfliker.kisenaa.me!",
         "Check out KickFlicker at kickflicker.kisenaa.me!",
         "You can find KickFlicker at kickflicker.kisenaa.me!"
       ]
@@ -149,7 +214,15 @@
         "How can I search for shoes?",
         "How can I find shoes on KickFlicker?",
         "How can I look for shoes on KickFlicker?",
-        "How can I search for shoes on KickFlicker?"
+        "How can I search for shoes on KickFlicker?",
+        "Where can I search for shoes?",
+        "Where can I find shoes on KickFlicker?",
+        "Where can I look for shoes on KickFlicker?",
+        "Where can I search for shoes on KickFlicker?",
+        "Can I search for shoes on KickFlicker?",
+        "Can I find shoes on KickFlicker?",
+        "Can I look for shoes on KickFlicker?",
+        "Can I search for shoes on KickFlicker?"
       ],
       "responses": [
         "You can search for shoes on KickFlicker by using the search bar at the top of the page! You can also use our image recognition feature to search for shoes using images! Cool, isn't it?",
@@ -164,7 +237,15 @@
         "How can I buy shoes on KickFlicker?",
         "How can I purchase shoes on KickFlicker?",
         "How can I order shoes on KickFlicker?",
-        "How can I get shoes on KickFlicker?"
+        "How can I get shoes on KickFlicker?",
+        "Where can I buy shoes on KickFlicker?",
+        "Where can I purchase shoes on KickFlicker?",
+        "Where can I order shoes on KickFlicker?",
+        "Where can I get shoes on KickFlicker?",
+        "What is the process to buy shoes on KickFlicker?",
+        "What is the process to purchase shoes on KickFlicker?",
+        "What is the process to order shoes on KickFlicker?",
+        "What is the process to get shoes on KickFlicker?"
       ],
       "responses": [
         "First things first, you need to create an account on KickFlicker. Then, you can browse through the shoes, add them to your cart, and proceed to checkout!",
@@ -179,7 +260,13 @@
         "How can I contact KickFlicker?",
         "How can I reach KickFlicker?",
         "How can I get in touch with KickFlicker?",
-        "How can I connect with KickFlicker?"
+        "How can I connect with KickFlicker?",
+        "What is the contact information for KickFlicker?",
+        "Who do I contact at KickFlicker?",
+        "Where can I send a message to KickFlicker?",
+        "What is the email address for KickFlicker?",
+        "How do I communicate with KickFlicker?",
+        "How do I send an inquiry to KickFlicker?"
       ],
       "responses": [
         "You can contact KickFlicker by sending an email to faaizhaikal@gmail.com",
@@ -193,7 +280,13 @@
         "How can I pay for shoes on KickFlicker?",
         "What payment methods are accepted on KickFlicker?",
         "How can I make payment on KickFlicker?",
-        "What are the payment options on KickFlicker?"
+        "What are the payment options on KickFlicker?",
+        "Which payment methods can I use on KickFlicker?",
+        "How do I pay for my order on KickFlicker?",
+        "What forms of payment does KickFlicker accept?",
+        "Can I use PayPal on KickFlicker?",
+        "Can I pay with a credit card on KickFlicker?",
+        "Are debit cards accepted on KickFlicker?"
       ],
       "responses": [
         "KickFlicker accepts various payment methods, including credit cards, debit cards, and PayPal!",
@@ -208,7 +301,13 @@
         "How are shoes delivered on KickFlicker?",
         "What are the delivery options on KickFlicker?",
         "How can I get my shoes on KickFlicker?",
-        "How can I receive my shoes on KickFlicker?"
+        "How can I receive my shoes on KickFlicker?",
+        "What delivery methods are available on KickFlicker?",
+        "How does delivery work on KickFlicker?",
+        "What are the shipping options on KickFlicker?",
+        "How will my shoes be delivered on KickFlicker?",
+        "Can I choose delivery options on KickFlicker?",
+        "What are the delivery choices on KickFlicker?"
       ],
       "responses": [
         "The delivery of shoes on KickFlicker depends on the seller, but you can usually choose between standard and express delivery options!",
@@ -223,7 +322,13 @@
         "How can I return shoes on KickFlicker?",
         "What is the return policy on KickFlicker?",
         "How can I get a refund on KickFlicker?",
-        "What is the process for returning shoes on KickFlicker?"
+        "What is the process for returning shoes on KickFlicker?",
+        "Can I return shoes on KickFlicker?",
+        "How do I return shoes on KickFlicker?",
+        "What are the steps to return shoes on KickFlicker?",
+        "Is it possible to return shoes on KickFlicker?",
+        "How can I initiate a return on KickFlicker?",
+        "What do I need to do to return shoes on KickFlicker?"
       ],
       "responses": [
         "The return policy on KickFlicker depends on the seller, but you can usually return shoes within a certain period if they are in their original condition!",
@@ -238,7 +343,13 @@
         "How can I chat with sellers on KickFlicker?",
         "How can I communicate with sellers on KickFlicker?",
         "How can I talk to sellers on KickFlicker?",
-        "How can I contact sellers on KickFlicker?"
+        "How can I contact sellers on KickFlicker?",
+        "How do I message sellers on KickFlicker?",
+        "How do I reach out to sellers on KickFlicker?",
+        "How do I start a chat with sellers on KickFlicker?",
+        "How do I get in touch with sellers on KickFlicker?",
+        "How can I send a message to sellers on KickFlicker?",
+        "How can I initiate a chat with sellers on KickFlicker?"
       ],
       "responses": [
         "You can chat with sellers on KickFlicker by clicking on the chat icon on the product page!",
@@ -253,7 +364,15 @@
         "How can I leave a review on KickFlicker?",
         "How can I rate sellers on KickFlicker?",
         "How can I provide feedback on KickFlicker?",
-        "How can I review products on KickFlicker?"
+        "How can I review products on KickFlicker?",
+        "Where can I leave a review on KickFlicker?",
+        "Where can I rate sellers on KickFlicker?",
+        "Where can I provide feedback on KickFlicker?",
+        "Where can I review products on KickFlicker?",
+        "How do I leave a review on KickFlicker?",
+        "How do I rate sellers on KickFlicker?",
+        "How do I provide feedback on KickFlicker?",
+        "How do I review products on KickFlicker?"
       ],
       "responses": [
         "You can leave a review on KickFlicker by going to the product page and clicking on the review section!",
@@ -268,7 +387,13 @@
         "How can I search for shoes using images on KickFlicker?",
         "How can I use image recognition on KickFlicker?",
         "How can I find shoes with pictures on KickFlicker?",
-        "How can I search for shoes with photos on KickFlicker?"
+        "How can I search for shoes with photos on KickFlicker?",
+        "Can I search for shoes using images on KickFlicker?",
+        "Is there an image recognition feature on KickFlicker?",
+        "Can I find shoes by uploading pictures on KickFlicker?",
+        "Does KickFlicker support image-based shoe search?",
+        "Can I use photos to search for shoes on KickFlicker?",
+        "Is it possible to search for shoes with images on KickFlicker?"
       ],
       "responses": [
         "You can use our image recognition feature by clicking on the camera icon in the search bar and uploading a picture of the shoes you're looking for!",
