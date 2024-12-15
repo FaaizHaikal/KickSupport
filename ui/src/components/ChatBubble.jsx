@@ -1,8 +1,35 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import CircularProgress from "@mui/material/CircularProgress";
+import Typography from "@mui/material/Typography";
 
-function ChatBubble({ speaker, message }) {
+function ChatBubble({ speaker, content }) {
   const isBot = speaker === "bot";
+  const isBotLoading = isBot && content === "";
+
+  const links = [
+    "kickflicker.kisenaa.me",
+    "faaizhaikal@gmail.com",
+  ];
+
+  const modifiedContent = () => {
+    if (!isBot || isBotLoading) {
+      return content;
+    }
+
+    let modifiedContent = content;
+    links.forEach((link) => {
+      const regex = new RegExp(link, 'g');
+      modifiedContent = modifiedContent.replace(
+        regex,
+        `<a href="http://${link}" target="_blank">${link}</a>`
+      );
+    });
+
+    console.log(modifiedContent);
+
+    return modifiedContent;
+  }
 
   return (
     <Box
@@ -21,9 +48,15 @@ function ChatBubble({ speaker, message }) {
           padding: "10px",
           maxWidth: "75%",
           wordWrap: "break-word",
+          display: "flex",
+          alignItems: "center",
         }}
       >
-        <Typography variant="body1">{message}</Typography>
+        {isBotLoading ? (
+          <CircularProgress size={20} sx={{ color: "#000000" }} />
+        ) : (
+          <Typography variant="body1" dangerouslySetInnerHTML={{ __html: modifiedContent() }} />
+        )}
       </Box>
     </Box>
   );
