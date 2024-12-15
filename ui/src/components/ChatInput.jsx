@@ -12,6 +12,8 @@ function ChatInput({ isLoading, onSend }) {
     }
   };
 
+  console.log("isLoading:", isLoading);
+
   return (
     <Box
       sx={{
@@ -31,9 +33,10 @@ function ChatInput({ isLoading, onSend }) {
         value={newMessage}
         onChange={(e) => setNewMessage(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter" && !e.shiftKey && !isLoading) {
+          if (e.key === "Enter" && !e.shiftKey) {
             e.preventDefault();
-            handleSend();
+            if (!isLoading)
+              handleSend();
           }
         }}
         sx={{
