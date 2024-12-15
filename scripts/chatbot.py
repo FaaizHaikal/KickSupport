@@ -1,11 +1,8 @@
-
 import os
 import json
 import pickle
 import numpy as np
 import nltk
-import sys
-import logging
 from nltk.stem import WordNetLemmatizer
 import tensorflow as tf
 from tensorflow.keras.models import load_model
