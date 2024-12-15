@@ -43,75 +43,75 @@
         "What are your objectives?"
       ],
       "responses": [
-        "I am here to help you with KickVerse",
-        "I am here as KickVerse assistant!",
-        "I am here to assist you with KickVerse!"
+        "I am here to help you with KickFlicker",
+        "I am here as KickFlicker assistant!",
+        "I am here to assist you with KickFlicker!"
       ]
     },
     {
-      "tag": "kickverse",
+      "tag": "KickFlicker",
       "patterns": [
-        "What is KickVerse?",
-        "What can I do with KickVerse?",
-        "What is KickVerse all about?",
-        "Tell me about KickVerse"
+        "What is KickFlicker?",
+        "What can I do with KickFlicker?",
+        "What is KickFlicker all about?",
+        "Tell me about KickFlicker"
       ],
       "responses": [
-        "KickVerse is an e-commerce platform where you can find any shoes you need!",
-        "KickVerse is an e-commerce platform for shoes!",
-        "KickVerse is an online store for shoes!"
+        "KickFlicker is an e-commerce platform where you can find any shoes you need!",
+        "KickFlicker is an e-commerce platform for shoes!",
+        "KickFlicker is an online store for shoes!"
       ]
     },
     {
       "tag": "sell",
       "patterns": [
-        "How can I sell on KickVerse?",
-        "How can I list my shoes on KickVerse?",
-        "How can I sell my shoes on KickVerse?",
-        "How can I become a seller on KickVerse?"
+        "How can I sell on KickFlicker?",
+        "How can I list my shoes on KickFlicker?",
+        "How can I sell my shoes on KickFlicker?",
+        "How can I become a seller on KickFlicker?"
       ],
       "responses": [
-        "To sell on KickVerse, first create an account. Then, head to the seller dashboard, list your shoes, and wait for buyers to contact you!"
+        "To sell on KickFlicker, first create an account. Then, head to the seller dashboard, list your shoes, and wait for buyers to contact you!"
       ]
     },
     {
       "tag": "features",
       "patterns": [
-        "What are the features of KickVerse?",
-        "What can I do on KickVerse?",
-        "What are the functionalities of KickVerse?",
-        "What are the services provided by KickVerse?"
+        "What are the features of KickFlicker?",
+        "What can I do on KickFlicker?",
+        "What are the functionalities of KickFlicker?",
+        "What are the services provided by KickFlicker?"
       ],
       "responses": [
-        "Like any other e-commerce platform, you can buy and sell products on KickVerse, but we specialize in shoes! You can also chat with sellers and leave reviews! What's more, we have an image recognition feature that allows you to search for shoes using images! Give it a try!"
+        "Like any other e-commerce platform, you can buy and sell products on KickFlicker, but we specialize in shoes! You can also chat with sellers and leave reviews! What's more, we have an image recognition feature that allows you to search for shoes using images! Give it a try!"
       ]
     },
     {
       "tag": "where",
       "patterns": [
-        "Where can I find KickVerse?",
-        "Where is KickVerse located?",
-        "Where can I access KickVerse?",
-        "Where can I use KickVerse?"
+        "Where can I find KickFlicker?",
+        "Where is KickFlicker located?",
+        "Where can I access KickFlicker?",
+        "Where can I use KickFlicker?"
       ],
       "responses": [
-        "KickVerse is an online platform, so you can access it *here*!",
-        "Check out KickVerse at *this link*!",
-        "You can find KickVerse at *this link*!"
+        "KickFlicker is an online platform, so you can access it *here*!",
+        "Check out KickFlicker at *this link*!",
+        "You can find KickFlicker at *this link*!"
       ]
     },
     {
       "tag": "contact",
       "patterns": [
-        "How can I contact KickVerse?",
-        "How can I reach KickVerse?",
-        "How can I get in touch with KickVerse?",
-        "How can I talk to KickVerse?"
+        "How can I contact KickFlicker?",
+        "How can I reach KickFlicker?",
+        "How can I get in touch with KickFlicker?",
+        "How can I talk to KickFlicker?"
       ],
       "responses": [
-        "You can contact KickVerse at *this email*!",
-        "Reach out to KickVerse at *this email*!",
-        "You can get in touch with KickVerse at *this email*!"
+        "You can contact KickFlicker at *this email*!",
+        "Reach out to KickFlicker at *this email*!",
+        "You can get in touch with KickFlicker at *this email*!"
       ]
     },
     {
@@ -132,96 +132,96 @@
       "tag": "search",
       "patterns": [
         "How can I search for shoes?",
-        "How can I find shoes on KickVerse?",
-        "How can I look for shoes on KickVerse?",
-        "How can I search for shoes on KickVerse?"
+        "How can I find shoes on KickFlicker?",
+        "How can I look for shoes on KickFlicker?",
+        "How can I search for shoes on KickFlicker?"
       ],
       "responses": [
-        "You can search for shoes on KickVerse by using the search bar at the top of the page! You can also use our image recognition feature to search for shoes using images! Cool, isn't it?"
+        "You can search for shoes on KickFlicker by using the search bar at the top of the page! You can also use our image recognition feature to search for shoes using images! Cool, isn't it?"
       ]
     },
     {
       "tag": "buy",
       "patterns": [
-        "How can I buy shoes on KickVerse?",
-        "How can I purchase shoes on KickVerse?",
-        "How can I order shoes on KickVerse?",
-        "How can I get shoes on KickVerse?"
+        "How can I buy shoes on KickFlicker?",
+        "How can I purchase shoes on KickFlicker?",
+        "How can I order shoes on KickFlicker?",
+        "How can I get shoes on KickFlicker?"
       ],
       "responses": [
-        "First things first, you need to create an account on KickVerse. Then, you can browse through the shoes, add them to your cart, and proceed to checkout!"
+        "First things first, you need to create an account on KickFlicker. Then, you can browse through the shoes, add them to your cart, and proceed to checkout!"
       ]
     },
     {
       "tag": "payment",
       "patterns": [
-        "How can I pay for shoes on KickVerse?",
-        "What payment methods are accepted on KickVerse?",
-        "How can I make payment on KickVerse?",
-        "What are the payment options on KickVerse?"
+        "How can I pay for shoes on KickFlicker?",
+        "What payment methods are accepted on KickFlicker?",
+        "How can I make payment on KickFlicker?",
+        "What are the payment options on KickFlicker?"
       ],
       "responses": [
-        "KickVerse accepts various payment methods, including credit cards, debit cards, and PayPal!"
+        "KickFlicker accepts various payment methods, including credit cards, debit cards, and PayPal!"
       ]
     },
     {
       "tag": "delivery",
       "patterns": [
-        "How are shoes delivered on KickVerse?",
-        "What are the delivery options on KickVerse?",
-        "How can I get my shoes on KickVerse?",
-        "How can I receive my shoes on KickVerse?"
+        "How are shoes delivered on KickFlicker?",
+        "What are the delivery options on KickFlicker?",
+        "How can I get my shoes on KickFlicker?",
+        "How can I receive my shoes on KickFlicker?"
       ],
       "responses": [
-        "The delivery of shoes on KickVerse depends on the seller, but you can usually choose between standard and express delivery options!"
+        "The delivery of shoes on KickFlicker depends on the seller, but you can usually choose between standard and express delivery options!"
       ]
     },
     {
       "tag": "return",
       "patterns": [
-        "How can I return shoes on KickVerse?",
-        "What is the return policy on KickVerse?",
-        "How can I get a refund on KickVerse?",
-        "What is the process for returning shoes on KickVerse?"
+        "How can I return shoes on KickFlicker?",
+        "What is the return policy on KickFlicker?",
+        "How can I get a refund on KickFlicker?",
+        "What is the process for returning shoes on KickFlicker?"
       ],
       "responses": [
-        "The return policy on KickVerse depends on the seller, but you can usually return shoes within a certain period if they are in their original condition!"
+        "The return policy on KickFlicker depends on the seller, but you can usually return shoes within a certain period if they are in their original condition!"
       ]
     },
     {
       "tag": "chat",
       "patterns": [
-        "How can I chat with sellers on KickVerse?",
-        "How can I communicate with sellers on KickVerse?",
-        "How can I talk to sellers on KickVerse?",
-        "How can I contact sellers on KickVerse?"
+        "How can I chat with sellers on KickFlicker?",
+        "How can I communicate with sellers on KickFlicker?",
+        "How can I talk to sellers on KickFlicker?",
+        "How can I contact sellers on KickFlicker?"
       ],
       "responses": [
-        "You can chat with sellers on KickVerse by clicking on the chat icon on the product page!"
+        "You can chat with sellers on KickFlicker by clicking on the chat icon on the product page!"
       ]
     },
     {
       "tag": "review",
       "patterns": [
-        "How can I leave a review on KickVerse?",
-        "How can I rate sellers on KickVerse?",
-        "How can I provide feedback on KickVerse?",
-        "How can I review products on KickVerse?"
+        "How can I leave a review on KickFlicker?",
+        "How can I rate sellers on KickFlicker?",
+        "How can I provide feedback on KickFlicker?",
+        "How can I review products on KickFlicker?"
       ],
       "responses": [
-        "You can leave a review on KickVerse by going to the product page and clicking on the review section!"
+        "You can leave a review on KickFlicker by going to the product page and clicking on the review section!"
       ]
     },
     {
       "tag": "image",
       "patterns": [
-        "How can I search for shoes using images on KickVerse?",
-        "How can I use image recognition on KickVerse?",
-        "How can I find shoes with pictures on KickVerse?",
-        "How can I search for shoes with photos on KickVerse?"
+        "How can I search for shoes using images on KickFlicker?",
+        "How can I use image recognition on KickFlicker?",
+        "How can I find shoes with pictures on KickFlicker?",
+        "How can I search for shoes with photos on KickFlicker?"
       ],
       "responses": [
-        "You can search for shoes using images on KickVerse by clicking on the camera icon in the search bar and uploading an image of the shoes you want to find!"
+        "You can search for shoes using images on KickFlicker by clicking on the camera icon in the search bar and uploading an image of the shoes you want to find!"
       ]
     },
     {

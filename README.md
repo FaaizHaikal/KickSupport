@@ -1,3 +1,3 @@
 # KickSupport
 
-A chatbot for [KickVerse](https://github.com/FaaizHaikal/KickVerse) project.
+A chatbot for [KickFlicker](https://github.com/FaaizHaikal/KickFlicker) project.
