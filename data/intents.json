@@ -2,13 +2,31 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
-      "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"]
+      "patterns": [
+        "Hi", 
+        "Is anyone there?", 
+        "Hello", 
+        "Good day"],
+      "responses": [
+        "Hello! How can I help you today?", 
+        "Hi! What can I assist you with?", 
+        "Hey! How can I support you?", 
+        "Good day! What do you need help with?"
+      ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": ["See you later!", "Have a great day!", "Goodbye!"]
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye", 
+        "Take care"],
+      "responses": [
+        "Goodbye! Have a great day!", 
+        "See you later! Take care!", 
+        "Bye! Come back soon!", 
+        "Take care! Goodbye!"
+      ]
     },
     {
       "tag": "thanks",
@@ -18,7 +36,12 @@
         "That's helpful",
         "Thanks for the help"
       ],
-      "responses": ["You're welcome!", "Anytime!", "My pleasure!"]
+      "responses": [
+        "You're welcome! Feel free to ask if you need more assistance.",
+        "No problem! Let me know if you have any other questions.",
+        "Glad I could help! If you need anything else, just ask.",
+        "You're welcome! If you have any other questions, feel free to ask."
+      ]
     },
     {
       "tag": "identity",
@@ -40,7 +63,9 @@
         "What are you?",
         "What is your purpose?",
         "What do you do?",
-        "What are your objectives?"
+        "What are your objectives?",
+        "Support for what?",
+        "What is your function?"
       ],
       "responses": [
         "I am here to help you with KickFlicker",
@@ -57,9 +82,9 @@
         "Tell me about KickFlicker"
       ],
       "responses": [
-        "KickFlicker is an e-commerce platform where you can find any shoes you need!",
-        "KickFlicker is an e-commerce platform for shoes!",
-        "KickFlicker is an online store for shoes!"
+        "KickFlicker is an innovative e-commerce platform where you can find any shoes you need! Our user-friendly interface ensures a smooth shopping experience, and our secure payment options give you peace of mind. Plus, our advanced AI image search categorizes shoes into eight categories: Basket, Boots, Casual, Flat Shoes, Football, Formal, Heels, and Running, making it easier for you to find the perfect pair.",
+        "KickFlicker is an e-commerce platform dedicated to shoes! Enjoy a seamless and secure shopping experience with our intuitive interface. Our AI-powered image search helps you categorize shoes into Basket, Boots, Casual, Flat Shoes, Football, Formal, Heels, and Running, ensuring you find exactly what you're looking for.",
+        "KickFlicker is an online store for shoes! Our platform offers a friendly and secure shopping environment. With our AI image search, you can easily categorize shoes into eight distinct categories: Basket, Boots, Casual, Flat Shoes, Football, Formal, Heels, and Running, making your shoe shopping quick and efficient."
       ]
     },
     {
@@ -71,7 +96,9 @@
         "How can I become a seller on KickFlicker?"
       ],
       "responses": [
-        "To sell on KickFlicker, first create an account. Then, head to the seller dashboard, list your shoes, and wait for buyers to contact you!"
+        "To start selling on KickFlicker, first create an account by signing up with your email and setting a secure password. After setting up your account, click on the \"My Store\" button at the top of the page to access your seller dashboard. Here, you can manage your store by listing your shoes with detailed descriptions, high-quality images, and competitive prices. Once your products are listed, they will be visible to potential buyers. You can track sales, manage inventory, and communicate with buyers directly through the platform. KickFlicker helps you reach a wide audience and grow your shoe business.",
+        "Selling on KickFlicker is easy! Start by creating an account with your email and a secure password. Then, click on the \"My Store\" button at the top of the page to go to your seller dashboard. Here, you can list your shoes with detailed descriptions, high-quality images, and set competitive prices. Your products will be visible to buyers once listed. You can manage your sales, inventory, and communicate with buyers directly through the platform. KickFlicker provides a great opportunity to expand your shoe business.",
+        "To sell on KickFlicker, begin by signing up with your email and creating a secure password. Once your account is ready, click on the \"My Store\" button at the top of the page to access your seller dashboard. List your shoes with detailed descriptions, high-quality images, and set competitive prices. Your products will be available to buyers once listed. You can track sales, manage inventory, and communicate with buyers directly through the platform. KickFlicker makes it simple to reach a broad audience and grow your shoe business."
       ]
     },
     {
@@ -83,7 +110,9 @@
         "What are the services provided by KickFlicker?"
       ],
       "responses": [
-        "Like any other e-commerce platform, you can buy and sell products on KickFlicker, but we specialize in shoes! You can also chat with sellers and leave reviews! What's more, we have an image recognition feature that allows you to search for shoes using images! Give it a try!"
+        "Like any other e-commerce platform, you can buy and sell products on KickFlicker, but we specialize in shoes! Our platform offers a user-friendly interface and secure payment options. One of our standout features is the AI-powered image search, which categorizes shoes into eight categories: Basket, Boots, Casual, Flat Shoes, Football, Formal, Heels, and Running. This makes it easy for you to find exactly what you're looking for. Whether you're a buyer or a seller, KickFlicker provides a seamless and efficient shopping experience tailored specifically for shoe enthusiasts.",
+        "KickFlicker offers a range of features to enhance your shopping experience. You can browse and purchase shoes with ease, thanks to our intuitive interface and secure payment methods. Our AI image search categorizes shoes into Basket, Boots, Casual, Flat Shoes, Football, Formal, Heels, and Running, making it simple to find the perfect pair. Additionally, sellers can list their products and reach a wide audience, ensuring a smooth and efficient transaction process.",
+        "On KickFlicker, you can enjoy a variety of features designed to make your shopping experience enjoyable and hassle-free. Our platform allows you to buy and sell shoes with confidence, using secure payment options and a user-friendly interface. The AI-powered image search helps you categorize shoes into eight distinct categories, ensuring you find exactly what you need. Whether you're looking to purchase or sell, KickFlicker has you covered with a seamless and efficient process."
       ]
     },
     {
@@ -95,23 +124,9 @@
         "Where can I use KickFlicker?"
       ],
       "responses": [
-        "KickFlicker is an online platform, so you can access it *here*!",
-        "Check out KickFlicker at *this link*!",
-        "You can find KickFlicker at *this link*!"
-      ]
-    },
-    {
-      "tag": "contact",
-      "patterns": [
-        "How can I contact KickFlicker?",
-        "How can I reach KickFlicker?",
-        "How can I get in touch with KickFlicker?",
-        "How can I talk to KickFlicker?"
-      ],
-      "responses": [
-        "You can contact KickFlicker at *this email*!",
-        "Reach out to KickFlicker at *this email*!",
-        "You can get in touch with KickFlicker at *this email*!"
+        "KickFlicker is an online platform, so you can access it here: kickfliker.kisenaa.me!",
+        "Check out KickFlicker at kickflicker.kisenaa.me!",
+        "You can find KickFlicker at kickflicker.kisenaa.me!"
       ]
     },
     {
@@ -137,7 +152,10 @@
         "How can I search for shoes on KickFlicker?"
       ],
       "responses": [
-        "You can search for shoes on KickFlicker by using the search bar at the top of the page! You can also use our image recognition feature to search for shoes using images! Cool, isn't it?"
+        "You can search for shoes on KickFlicker by using the search bar at the top of the page! You can also use our image recognition feature to search for shoes using images! Cool, isn't it?",
+        "Searching for shoes on KickFlicker is super easy! Just type what you're looking for in the search bar at the top. Plus, you can use our awesome image recognition feature to find shoes with just a picture!",
+        "Looking for shoes? Use the search bar at the top of the page on KickFlicker! And don't forget to try our amazing image recognition feature to search using photos. It's really fun!",
+        "Find your perfect pair of shoes by using the search bar at the top of KickFlicker! You can also upload a picture and let our image recognition feature do the magic. Isn't that exciting?"
       ]
     },
     {
@@ -149,7 +167,24 @@
         "How can I get shoes on KickFlicker?"
       ],
       "responses": [
-        "First things first, you need to create an account on KickFlicker. Then, you can browse through the shoes, add them to your cart, and proceed to checkout!"
+        "First things first, you need to create an account on KickFlicker. Then, you can browse through the shoes, add them to your cart, and proceed to checkout!",
+        "To buy shoes on KickFlicker, start by creating an account. After that, browse the available shoes, add your desired pairs to the cart, and complete the purchase at checkout!",
+        "Buying shoes on KickFlicker is easy! Just create an account, browse the selection, add your favorite shoes to the cart, and proceed to checkout!",
+        "Create an account on KickFlicker, browse through the shoe collection, add the ones you like to your cart, and then proceed to checkout to complete your purchase!"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact KickFlicker?",
+        "How can I reach KickFlicker?",
+        "How can I get in touch with KickFlicker?",
+        "How can I connect with KickFlicker?"
+      ],
+      "responses": [
+        "You can contact KickFlicker by sending an email to faaizhaikal@gmail.com",
+        "Reach out to KickFlicker by sending an email to faaizhaikal@gmail.com",
+        "For any inquiries, you can contact KickFlicker by sending an email to faaizhaikal@gmail.com"
       ]
     },
     {
@@ -161,7 +196,10 @@
         "What are the payment options on KickFlicker?"
       ],
       "responses": [
-        "KickFlicker accepts various payment methods, including credit cards, debit cards, and PayPal!"
+        "KickFlicker accepts various payment methods, including credit cards, debit cards, and PayPal!",
+        "You can pay for shoes on KickFlicker using credit cards, debit cards, and PayPal!",
+        "KickFlicker supports multiple payment options such as credit cards, debit cards, and PayPal!",
+        "On KickFlicker, you can make payments using credit cards, debit cards, and PayPal!"
       ]
     },
     {
@@ -173,7 +211,10 @@
         "How can I receive my shoes on KickFlicker?"
       ],
       "responses": [
-        "The delivery of shoes on KickFlicker depends on the seller, but you can usually choose between standard and express delivery options!"
+        "The delivery of shoes on KickFlicker depends on the seller, but you can usually choose between standard and express delivery options!",
+        "Delivery options on KickFlicker vary by seller, but you typically have the choice of standard or express delivery!",
+        "On KickFlicker, shoe delivery is managed by the seller, and you can often select either standard or express delivery!",
+        "Shoe delivery on KickFlicker is seller-dependent, with standard and express delivery options commonly available!"
       ]
     },
     {
@@ -185,7 +226,10 @@
         "What is the process for returning shoes on KickFlicker?"
       ],
       "responses": [
-        "The return policy on KickFlicker depends on the seller, but you can usually return shoes within a certain period if they are in their original condition!"
+        "The return policy on KickFlicker depends on the seller, but you can usually return shoes within a certain period if they are in their original condition!",
+        "Returns on KickFlicker are subject to the seller's policy, but generally, you can return shoes within a specified timeframe if they remain in their original state!",
+        "You can typically return shoes on KickFlicker within a certain period, as long as they are in their original condition, but please check the seller's return policy for specifics!",
+        "KickFlicker allows returns based on the seller's policy, usually within a set period if the shoes are in their original condition!"
       ]
     },
     {
@@ -197,7 +241,10 @@
         "How can I contact sellers on KickFlicker?"
       ],
       "responses": [
-        "You can chat with sellers on KickFlicker by clicking on the chat icon on the product page!"
+        "You can chat with sellers on KickFlicker by clicking on the chat icon on the product page!",
+        "To communicate with sellers on KickFlicker, click on the chat icon located on the product page!",
+        "Simply click on the chat icon on the product page to start a conversation with sellers on KickFlicker!",
+        "To talk to sellers on KickFlicker, use the chat icon found on the product page!"
       ]
     },
     {
@@ -209,7 +256,10 @@
         "How can I review products on KickFlicker?"
       ],
       "responses": [
-        "You can leave a review on KickFlicker by going to the product page and clicking on the review section!"
+        "You can leave a review on KickFlicker by going to the product page and clicking on the review section!",
+        "To rate sellers on KickFlicker, visit the product page and navigate to the review section!",
+        "Providing feedback on KickFlicker is easy! Just go to the product page and click on the review section!",
+        "To review products on KickFlicker, head to the product page and find the review section!"
       ]
     },
     {
@@ -221,7 +271,9 @@
         "How can I search for shoes with photos on KickFlicker?"
       ],
       "responses": [
-        "You can search for shoes using images on KickFlicker by clicking on the camera icon in the search bar and uploading an image of the shoes you want to find!"
+        "You can use our image recognition feature by clicking on the camera icon in the search bar and uploading a picture of the shoes you're looking for!",
+        "To find shoes using images, click on the camera icon in the search bar and upload a photo of the shoes you want to search for!",
+        "Simply click on the camera icon in the search bar and upload an image to search for shoes using our image recognition feature!"
       ]
     },
     {
